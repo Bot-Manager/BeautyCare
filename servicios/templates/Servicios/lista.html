@@ -1,0 +1,7 @@
+<h1>Lista Servicios</h1>
+
+
+{% for servicio in lista_servicio %}
+<h2>
+    <a href="{% url 'servicios:detalle_servicio' servicio.slug %}"> {{servicio}} </a></h2>
+{% endfor %}
