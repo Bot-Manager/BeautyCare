@@ -13,4 +13,8 @@ def lista_servicio(request):
 
 
 def detalle_servicio(request , slug):
-    pass
+    detalle_servicio = Servicios.objects.get(slug=slug)
+
+    context = {'detalle_servicio' : detalle_servicio}
+
+    return render(request , 'Servicios/detalle.html' , context)
