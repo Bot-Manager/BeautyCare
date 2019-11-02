@@ -2676,3 +2676,7 @@ img {
 #servicios {
     top: 100px;
 }
+
+.servicio_img{
+    width: 100%;
+}
