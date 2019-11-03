@@ -1,0 +1,197 @@
+{% extends 'base.html' %}
+
+
+{% block body %}
+
+
+
+  <input type="hidden" name="formID" value="93048910786668" />
+  <input type="hidden" id="JWTContainer" value="" />
+  <input type="hidden" id="cardinalOrderNumber" value="" />
+  <div role="main" class="form-all">
+    <ul class="form-section page-section">
+      <li id="cid_18" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group ">
+          <div class="header-text httal htvam">
+            <h1 id="header_18" class="form-header" data-component="header">
+              Reserva tu hora con nosotros
+            </h1>
+            <div id="subHeader_18" class="form-subHeader">
+              asd
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_textbox" id="id_23">
+        <label class="form-label form-label-top form-label-auto" id="label_23" for="input_23">
+          Nombre
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_23" class="form-input-wide jf-required">
+          <input type="text" id="input_23" name="q23_nombre" data-type="input-textbox" class="form-textbox validate[required]" size="20" value="" data-component="textbox" aria-labelledby="label_23" required="" />
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_email" id="id_24">
+        <label class="form-label form-label-top form-label-auto" id="label_24" for="input_24">
+          Correo Electronico
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_24" class="form-input-wide jf-required">
+          <span class="form-sub-label-container " style="vertical-align:top">
+            <input type="email" id="input_24" name="q24_correoElectronico" class="form-textbox validate[required, Email]" size="30" value="" data-component="email" aria-labelledby="label_24 sublabel_input_24" required="" />
+            <label class="form-sub-label" for="input_24" id="sublabel_input_24" style="min-height:13px"> ejemplo@ejemplo.com </label>
+          </span>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_phone" id="id_25">
+        <label class="form-label form-label-top form-label-auto" id="label_25" for="input_25_area">
+          Número de teléfono
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_25" class="form-input-wide jf-required">
+          <div data-wrapper-react="true">
+            <span class="form-sub-label-container " style="vertical-align:top">
+              <input type="tel" id="input_25_area" name="q25_numeroDe[area]" class="form-textbox validate[required]" size="6" value="" data-component="areaCode" aria-labelledby="label_25 sublabel_25_area" required="" />
+              <span class="phone-separate" aria-hidden="true">
+                 -
+              </span>
+              <label class="form-sub-label" for="input_25_area" id="sublabel_25_area" style="min-height:13px"> Código de área </label>
+            </span>
+            <span class="form-sub-label-container " style="vertical-align:top">
+              <input type="tel" id="input_25_phone" name="q25_numeroDe[phone]" class="form-textbox validate[required]" size="12" value="" data-component="phone" aria-labelledby="label_25 sublabel_25_phone" required="" />
+              <label class="form-sub-label" for="input_25_phone" id="sublabel_25_phone" style="min-height:13px"> Número de teléfono </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_datetime" id="id_27">
+        <label class="form-label form-label-top form-label-auto" id="label_27" for="lite_mode_27">
+          Fecha
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_27" class="form-input-wide jf-required">
+          <div data-wrapper-react="true">
+            <div style="display:none">
+              <span class="form-sub-label-container " style="vertical-align:top">
+                <input type="tel" class="form-textbox validate[required, limitDate]" id="month_27" name="q27_fecha[month]" size="2" data-maxlength="2" value="" required="" aria-labelledby="label_27 sublabel_27_month" />
+                <span class="date-separate" aria-hidden="true">
+                   -
+                </span>
+                <label class="form-sub-label" for="month_27" id="sublabel_27_month" style="min-height:13px"> Mes </label>
+              </span>
+              <span class="form-sub-label-container " style="vertical-align:top">
+                <input type="tel" class="form-textbox validate[required, limitDate]" id="day_27" name="q27_fecha[day]" size="2" data-maxlength="2" value="" required="" aria-labelledby="label_27 sublabel_27_day" />
+                <span class="date-separate" aria-hidden="true">
+                   -
+                </span>
+                <label class="form-sub-label" for="day_27" id="sublabel_27_day" style="min-height:13px"> Día </label>
+              </span>
+              <span class="form-sub-label-container " style="vertical-align:top">
+                <input type="tel" class="form-textbox validate[required, limitDate]" id="year_27" name="q27_fecha[year]" size="4" data-maxlength="4" value="" required="" aria-labelledby="label_27 sublabel_27_year" />
+                <label class="form-sub-label" for="year_27" id="sublabel_27_year" style="min-height:13px"> Año </label>
+              </span>
+            </div>
+            <span class="form-sub-label-container " style="vertical-align:top">
+              <input type="text" class="form-textbox validate[required, limitDate, validateLiteDate]" id="lite_mode_27" size="12" data-maxlength="12" data-age="" value="" required="" data-format="mmddyyyy" data-seperator="-" placeholder="mm-dd-yyyy" aria-labelledby="label_27 sublabel_27_litemode" />
+              <img alt="Pick a Date" id="input_27_pick" src="https://cdn.jotfor.ms/images/calendar.png" style="vertical-align:middle;margin-left:5px" data-component="datetime" aria-hidden="true" />
+              <label class="form-sub-label" for="lite_mode_27" id="sublabel_27_litemode" style="min-height:13px"> Fecha </label>
+            </span>
+            <span class="form-sub-label-container " style="vertical-align:top">
+              <label class="form-sub-label" for="input_27_pick" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap"> Date Picker Icon </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_time" id="id_26">
+        <label class="form-label form-label-top form-label-auto" id="label_26" for="input_26_hourSelect">
+          Hora
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_26" class="form-input-wide jf-required">
+          <div data-wrapper-react="true">
+            <span class="form-sub-label-container " style="vertical-align:top">
+              <select class="time-dropdown form-dropdown validate[required]" id="input_26_hourSelect" name="q26_hora[hourSelect]" data-component="time-hour" required="" aria-labelledby="label_26 sublabel_26_hour">
+                <option>  </option>
+                <option value="1"> 1 </option>
+                <option value="2"> 2 </option>
+                <option value="3"> 3 </option>
+                <option value="4"> 4 </option>
+                <option value="5"> 5 </option>
+                <option value="6"> 6 </option>
+                <option value="7"> 7 </option>
+                <option value="8"> 8 </option>
+                <option value="9"> 9 </option>
+                <option value="10"> 10 </option>
+                <option value="11"> 11 </option>
+                <option value="12"> 12 </option>
+              </select>
+              <span class="date-separate">
+                 :
+              </span>
+              <label class="form-sub-label" for="input_26_hourSelect" id="sublabel_26_hour" style="min-height:13px"> Hora </label>
+            </span>
+            <span class="form-sub-label-container " style="vertical-align:top">
+              <select class="time-dropdown form-dropdown validate[required]" id="input_26_minuteSelect" name="q26_hora[minuteSelect]" data-component="time-minute" required="" aria-labelledby="label_26 sublabel_26_minutes">
+                <option>  </option>
+                <option value="00"> 00 </option>
+                <option value="10"> 10 </option>
+                <option value="20"> 20 </option>
+                <option value="30"> 30 </option>
+                <option value="40"> 40 </option>
+                <option value="50"> 50 </option>
+              </select>
+              <label class="form-sub-label" for="input_26_minuteSelect" id="sublabel_26_minutes" style="min-height:13px"> Minutos </label>
+            </span>
+            <span class="form-sub-label-container " style="vertical-align:top">
+              <select class="time-dropdown form-dropdown validate[required]" id="input_26_ampm" name="q26_hora[ampm]" data-component="time-ampm" required="" aria-labelledby="label_26 sublabel_26_ampm">
+                <option value="AM"> AM </option>
+                <option selected="" value="PM"> PM </option>
+              </select>
+              <label class="form-sub-label" for="input_26_ampm" id="sublabel_26_ampm" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap"> AM/PM Option </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_dropdown" id="id_28">
+        <label class="form-label form-label-top form-label-auto" id="label_28" for="input_28">
+          Servicio
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_28" class="form-input-wide jf-required">
+          <select class="form-dropdown validate[required]" id="input_28" name="q28_servicio" style="width:150px" data-component="dropdown" required="" aria-labelledby="label_28">
+            <option value="">  </option>
+            <option value="">  </option>
+          </select>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_17">
+        <div id="cid_17" class="form-input-wide">
+          <div style="text-align:left" class="form-buttons-wrapper ">
+            <button id="input_17" type="submit" class="form-submit-button form-submit-button-none" data-component="button">
+              Submit
+            </button>
+          </div>
+        </div>
+      </li>
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+    </ul>
+  </div>
+  
+  
+
+{% endblock body %}
